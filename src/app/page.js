@@ -4,6 +4,7 @@ import Header from '../components/header'
 import Banner from '../components/banner'
 import Footer from '../components/footer'
 import Browse from '@/components/browse'
+import Choosecode from '@/components/choosecode'
  
 const page = () => {
   return (
@@ -27,9 +28,12 @@ const page = () => {
     {/* this is banner */}
     <Banner/>
     {/* this is banner */}
+     {/* This is choose code section */}
+   <Choosecode/>
 
 
     </>
+
   )
 }
 
