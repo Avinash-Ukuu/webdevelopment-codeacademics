@@ -1,0 +1,48 @@
+.instructor{
+    border-radius: 5px;
+    background-color: #e9e2ff;
+    font-size: 14px;
+    height: 32px;
+    width: 175.92px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #704fe6;
+}
+.heading{
+    font-size: 45px;
+    line-height: 58.5px;
+    font-weight: 700;
+}
+.paraghraph p{
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 32.3px;
+    vertical-align: middle;
+}
+.commonbutton{
+    display: flex;
+    justify-content: space-between;
+    width: 35%;
+}
+
+.left{
+    border-radius: 200px;
+    color: white;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #704fe6;
+    width: 200px;
+    height: 50px;
+}
+
+.right{
+    background-color: #17254E;
+    color: white;
+    font-size: 15px;
+    border-radius: 200px;
+    width: 200px;
+    height: 50px;
+}
