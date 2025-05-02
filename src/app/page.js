@@ -1,14 +1,25 @@
 import React from 'react'
-import Header from '../componets/header'
-import Banner from '../componets/banner'
-
+import Newsletter from '../components/newsletter'
+import Header from '../components/header'
+import Banner from '../components/banner'
+import Footer from '../components/footer'
+ 
 const page = () => {
   return (
     <>
 
+     {/* this is header */}
+     <Header/>
     {/* this is header */}
-    <Header/>
-    {/* this is header */}
+    {/* This is Newsletter */}
+    <Newsletter/>
+     {/* This is Newsletter */}
+     
+      {/* This is Footer */}
+      < Footer/>
+      {/* This is Footer */}
+
+   
 
     {/* this is banner */}
     <Banner/>
