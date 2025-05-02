@@ -1,6 +1,7 @@
 import React from 'react'
 import Newsletter from '../components/newsletter'
-import Footer from '../components/footer'
+import Header from '../componets/header'
+import Banner from '../componets/banner'
  
 const page = () => {
   return (
@@ -14,7 +15,8 @@ const page = () => {
       {/* This is Footer */}
 
 
-    
+
+
     </>
   )
 }
