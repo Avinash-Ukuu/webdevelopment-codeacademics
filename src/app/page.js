@@ -15,6 +15,7 @@ const page = () => {
      {/* This is browse */}
      <Browse/>
     {/* this is header */}
+    
     {/* This is Newsletter */}
     <Newsletter/>
      {/* This is Newsletter */}
