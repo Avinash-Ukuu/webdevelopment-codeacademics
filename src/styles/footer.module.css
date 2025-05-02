@@ -1,0 +1,40 @@
+.fsec{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #000;
+    color: #fff;
+}
+.footer .fsec .edu {
+    width: 30%;
+}
+.footer .fsec  .services{
+    width: 30%;
+}
+/* .footer .fsec  .link {
+    width: 10%;
+} */
+.footer .fsec .gallery{
+    width: 30%;
+}
+ .icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer .fsec .services li{
+    color: #fff;
+}
+.footer .fsec .edu .symbols span {
+    background-color: #E9E2FF;
+    color: #704FE6;
+
+}
+ .gallery{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+   
+}
+ 

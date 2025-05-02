@@ -1,0 +1,129 @@
+
+/* my css */
+
+.jsec {
+    width: 100%;
+    height: 180px;
+  position: relative;
+    background-color: #704FE6;
+    color: #ffffff;
+}
+
+.jsec .nsltter {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.jsec .nsltter .jon {
+    width: 25%;
+    align-items: center;
+}
+
+.jsec .nsltter .jon h3 {
+    font-size: 45px;
+    margin-bottom: 8px;
+}
+
+.jsec .nsltter .jon p {
+    font-size: 18px;
+    line-height: 32px;
+}
+
+.jsec .nsltter .eye {
+    width: 25%;
+    background-color: #ffffff;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+.jsec .nsltter .eye input{
+    color: #000;
+    padding: 20px;
+    font-size: 16px;
+    
+}
+.jsec .nsltter .eye .but a{
+    color: #ffffff;
+    background-color: #000;
+    border-radius: 3px;
+    padding: 7px ;
+    font-size: 17px;
+    position: absolute;
+    right: 330px;
+    top: 50px;
+}
+.jsec .nsltter::before{
+    content: '';
+    width: 300px;
+    height: 150px;
+    background-image: url(../../public/images/limg.svg);
+    background-size: 100% 100%;
+    position: absolute;
+    color: #E9E2FF;
+    right: -20px;
+    top: 30px;
+    
+}
+
+.jsec .nsltter::after{
+    content: '';
+    width: 40px;
+    height: 60px;
+    background-image: url(../../public/images/dotimg.svg);
+    background-size: 100% 100%;
+    position: absolute;
+    color: #E9E2FF;
+    right: 140px;
+    top: 0;
+    
+}
+.jsec::after{
+    content: '';
+    width: 190px;
+    height: 140px;
+    background-image: url(../../public/images/rimg.png);
+    background-size: 100% 100%;
+    position: absolute;
+    color: #E9E2FF;
+    right: 0;
+    left: 0;
+    top: 0;
+    
+    
+}
+
+.jsec::before{
+    content: '';
+    width: 40px;
+    height: 60px;
+    background-image: url(../../public/images/simg.svg);
+    background-size: 100% 100%;
+    position: absolute;
+    color: #E9E2FF;
+    right: 140px;
+    top: 120px;
+    left: 100px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* my css */

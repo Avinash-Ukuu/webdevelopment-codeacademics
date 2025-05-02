@@ -24,3 +24,27 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+/* global css */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  
+}
+
+/* global css */
+
+
+/* comman css */
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+a,
+li {
+  text-decoration: none;
+  list-style: none;
+  color: #fff;
+
+}
+
