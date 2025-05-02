@@ -3,6 +3,7 @@ import Newsletter from '../components/newsletter'
 import Header from '../components/header'
 import Banner from '../components/banner'
 import Footer from '../components/footer'
+import Browse from '@/components/browse'
  
 const page = () => {
   return (
@@ -10,6 +11,8 @@ const page = () => {
 
      {/* this is header */}
      <Header/>
+     {/* This is browse */}
+     <Browse/>
     {/* this is header */}
     {/* This is Newsletter */}
     <Newsletter/>
