@@ -1,0 +1,67 @@
+.mainBanner{
+    background-image:url(../../public/bannerBackground.png) ;
+    background-size: 100% 100%;
+    padding: 100px 0;
+    position: relative;
+}
+.mainBanner::before{
+    content: '';
+    background-image: url(../../public/rightMainImage.png);
+    background-size: 100% 100%;
+    width: 40%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-repeat: no-repeat;
+}
+.launchBanner{
+    display: flex;
+}
+.launchBanner .leftContent{
+    width: 58%;
+}
+.launchBanner .leftContent .mainJoin{
+    display: flex;
+    align-items: center;
+    color: #1F3061;
+    font-size: 15px;
+    position: relative; 
+    margin: 20px 0 0 20px
+}
+.launchBanner .leftContent .mainJoin::before{
+    content: '';
+    position: absolute;
+    background-image: url('../../public/dottedArrow.svg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    right: 106px;
+    top: 3px;
+    width: 427px;
+    height: 119px;
+}
+.launchBanner .leftContent .mainJoin .joinRound{
+    background-color: #1F3061;
+    width: 45px;
+    height: 45px;
+    border-radius: 60%;
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.launchBanner .leftContent .welcomeLaunch h6{
+    color: #704FE6;
+    font-size: 17px;
+}
+.launchBanner .leftContent .welcomeLaunch p{
+    color: #333931;
+    font-size: 14px;
+    width: 60%;
+}
+.launchBanner .leftContent .welcomeLaunch  h1{
+margin: 6px 0;
+color: #17254E;
+font-size: 60px;
+line-height: 72px;
+}
