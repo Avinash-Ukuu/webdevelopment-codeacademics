@@ -1,23 +1,39 @@
-
-.main{
-    height: 100vh;
+.main {
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 100px 0;
 }
-.mainside{
+
+.mainside {
     height: 100%;
     width: 100%;
+    display: flex;
+    align-items: center;
 }
-.leftside{
+
+.leftside {
     width: 50%;
 }
-.rightside{
-    width: 50%s;
+
+.rightside {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}   
+.choosepluslogo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+
 }
-.whychoose{
-    background-color:#E9E2FF;
+
+.whychoose {
+    background-color: #E9E2FF;
     width: 25%;
     height: 32px;
     border-radius: 5px;
@@ -27,32 +43,72 @@
 
 
 }
-.whychoose H1{
-    color:#704FE6  ;
+
+.whychoose H1 {
+    color: #704FE6;
     font-size: 10px;
 }
-.textfirst H1{
-    font-size: 40px;
+
+.textfirst H1 {
+    font-size: 45px;
     color: #0E2A46;
+    font-weight: 700;
+    margin-top: 20px;
+
 }
-.textfirst p{
-    font-size: 17px;
+
+.textfirst p {
     color: #333931;
+    font-size: 17px;
+    font-weight: 400;
+    margin: 30px 0;
 }
+
 .lefttext {
     display: flex;
-    width: 100%;
-    height: 100%;
     flex-wrap: wrap;
-    justify-content: space-evenly;
-    align-items: center;
-    
-  
+    gap: 16px;
+    width: 100%;
+    margin-top: 6px;
 }
-.fourtext{
-    height: 50%;
-    width: 50%;
+
+.fourtext {
+    background-color: rgb(237, 233, 254);
     border-radius: 8px;
-    background-color: #E9E2FF;
-    padding-left: 10px;
+    width: 45%;
+    padding: 16px;
+}
+
+.fourtext h2 {
+    font-size: 17px;
+    font-weight: 600;
+    color: #1e1b4b;
+    margin-bottom: 8px;
+}
+
+.fourtext p {
+    font-size: 17px;
+    color: #4b5563;
+    margin-top: 15px;
+}
+
+.rightsideimg{
+    position: initial!important;
+    height: 60%!important;
+    width: 75%!important;
+    position: relative;
+    border: 10px solid #fff;
+
+}
+.rightside::before{
+    content: "";
+    width: 87%;
+    height: 110%;
+    top: -54px;
+    left: 60px;
+    background-image: url(../../public/images/choosebackground.png);
+    background-size: 100% 100%;
+    position: absolute;
+    z-index: -1;
+
 }

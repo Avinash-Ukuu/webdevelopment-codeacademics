@@ -1,3 +1,26 @@
+.expertSection{
+    display: flex;
+    flex-direction: column;
+    padding: 50px 0;
+}
+
+.instructor{
+    position: relative;
+}
+
+.instructor::before{
+content:"";
+background-size: 100% 100%;
+background-image: url(../../public/745360e9beae21c2c08d91a27ac312e6df50528a.png);
+position: absolute;
+width: 50px;
+height: 50px;
+bottom: 50%;
+left: -50%;
+}
+
+
+
 .instructor{
     border-radius: 5px;
     background-color: #e9e2ff;
@@ -13,36 +36,241 @@
     font-size: 45px;
     line-height: 58.5px;
     font-weight: 700;
+    display: flex;
 }
+
+
+ 
 .paraghraph p{
     font-size: 17px;
     font-weight: 400;
     line-height: 32.3px;
     vertical-align: middle;
 }
+
+
 .commonbutton{
     display: flex;
     justify-content: space-between;
-    width: 35%;
 }
 
 .left{
     border-radius: 200px;
     color: white;
-    font-size: 15px;
+    font-size: 17px;
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: #704fe6;
     width: 200px;
     height: 50px;
+    padding-left: 47px;
 }
 
 .right{
-    background-color: #17254E;
-    color: white;
-    font-size: 15px;
+    color: #fff;
+    background-color: #17254e;
     border-radius: 200px;
     width: 200px;
     height: 50px;
+    font-size: 17px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 36px;
 }
+
+.leftcircle{
+    background-color: #785DD7;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin-left: auto;
+}
+
+.rightcircle{
+    background-color: #1F3061;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin-left: auto;
+}
+.arrowright{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding-top: 14px;
+}
+.arrowleft{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 14px;
+}
+
+.rightcircle{
+position: relative;
+}
+
+.rightcircle::before{
+    content:"";
+    background-size: 100% 100%;
+    background-image: url(../../public/yellowline.png);
+    bottom: -60%;
+    left: 31px;
+    width: 28px;
+    height: 28px;
+    position: absolute;
+}
+
+.expertLeft{
+    width: 34%;
+}
+
+.main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+
+.expertRight{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 60%;
+}
+
+/* .boxone{
+    position: relative;
+}
+
+.boxone::before{
+    content: "";
+    bottom: 0;
+    top: 0;
+    background-size: 100% 100%;
+    background-image: url(../../public/95155be5370b94a26e6be3527311381c695fdcb8.png);
+    width: 40px;
+    height: 40px;
+    position: absolute;
+} */
+
+
+
+.boxes{
+    border: 5px solid #704FE6;
+    border-radius: 10px;
+     width: 48%;
+     height: 364px;
+     margin-bottom: 20px;
+     background-size: 100% 100%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     padding-top: 265px;
+ }
+
+ .boxtwo{
+     background-image: url(../../public/smartboy.jpg);
+ }
+ .boxthree{
+     background-image: url(../../public/smileboy.jpg);
+}
+.boxfour{
+     background-image: url(../../public/beardboy.jpg);
+}
+
+.boxOne{
+    background-image: url(../../public/girl.jpg);
+
+}
+
+.whitebox{
+    width: 300px;
+    height: 50px;
+    background-color: white;
+    border-radius: 9px;
+}
+.esther{
+    padding-left: 50px;
+    font-size: 17px;
+
+}
+
+ .junior{
+    color: #704FE6;
+    padding-left: 50px;
+    font-size: 14px;
+ }
+
+.whitecircle{
+    background-color: #e9e2ff;
+    border-radius: 20px;
+    width: 30px;
+    height: 30px;
+    margin-top: -36px;
+    margin-left: 235px;
+}
+
+.boxOne{
+    position: relative;
+}
+.boxtwo{
+    position: relative;
+}
+.boxthree{
+    position: relative;
+}
+.boxfour{
+    position: relative;
+}
+.boxOne::before{
+    content: "";
+    width: 40px;
+    height: 40px;
+    top: 23px;
+    background-image: url(../../public/Button.svg);
+    background-size: 100% 100%;
+    position: absolute;
+    right: 30px;
+}
+
+.boxtwo::before{
+    content: "";
+    width: 40px;
+    height: 40px;
+    top: 23px;
+    background-image: url(../../public/Button.svg);
+    background-size: 100% 100%;
+    position: absolute;
+    right: 30px;
+}
+.boxthree::before{
+    content: "";
+    width: 40px;
+    height: 40px;
+    top: 23px;
+    background-image: url(../../public/Button.svg);
+    background-size: 100% 100%;
+    position: absolute;
+    right: 30px;
+}
+.boxfour::before{
+    content: "";
+    width: 40px;
+    height: 40px;
+    top: 23px;
+    background-image: url(../../public/Button.svg);
+    background-size: 100% 100%;
+    position: absolute;
+    right: 30px;
+}
+
+
+
+
+
+

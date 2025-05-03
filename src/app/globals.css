@@ -38,15 +38,10 @@ body {
 /* comman css */
 .container {
   width: 1200px;
-  margin: 0 auto;
+  margin: auto;
 }
-a,
-li {
-  /* text-decoration: none; */
-  /* list-style: none; */
-  color: #fff;
 
-}
+
 
 .container{
   width: 1200px;
