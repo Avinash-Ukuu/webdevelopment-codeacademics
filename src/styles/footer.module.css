@@ -1,40 +1,118 @@
-.fsec{
+.footerSection{
+    background-color: #000;
+}
+
+.fsec {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    background-color: #000;
+    width: 100%;
     color: #fff;
+    height: 100%;
+    padding: 50px 0;
 }
-.footer .fsec .edu {
+
+.edu {
+    width: 24%;
+    margin-right: 50px;
+}
+
+
+.listing {
     width: 30%;
-}
-.footer .fsec  .services{
-    width: 30%;
-}
-/* .footer .fsec  .link {
-    width: 10%;
-} */
-.footer .fsec .gallery{
-    width: 30%;
-}
- .icons {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-.footer .fsec .services li{
-    color: #fff;
-}
-.footer .fsec .edu .symbols span {
-    background-color: #E9E2FF;
-    color: #704FE6;
 
 }
- .gallery{
+
+
+.listing {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.edu p {
+    font-size: 16px;
+    width: 88%;
+    padding-top: 15px;
+
+}
+
+.symbols {
+    width: 38%;
+    height: 65px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.icons {
+    color: rgb(112, 79, 230);
+    background-color: rgb(233, 226, 255);
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer .fsec .services li {
+    color: #fff;
+
+}
+
+.serviceslist,
+.linklist {
+    margin-bottom: 10px;
+}
+
+.services h4,
+.link h4 {
+    margin-bottom: 10px;
+}
+
+.gallery {
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-   
+    align-content: center;
+    width: 60%;
+    row-gap: 8px;
+    /* margin-left: 50px; */
+
+
 }
- 
+
+.galleryicn {
+    width: 33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.serviceslist,
+.linklist {
+    display: flex;
+}
+
+.gal h4 {
+    padding: 20px;
+}
+
+.rticon {
+    margin-right: 15px;
+}
+.footer{
+    background-color: #222222;
+    color: #fff;
+    text-align: center;
+    font-size: 17px;
+    padding: 10px 0;
+}
+.footer span{
+    color:  #FFD25D;
+    font-size: 17px;
+    
+}

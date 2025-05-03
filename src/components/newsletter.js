@@ -5,8 +5,8 @@ const newsletter = () => {
     return (
         <>
             <section className={styles.jsec}>
-                <div className={styles.container}>
-                    <div></div>
+                <div className='container'>
+                    
                     <div className={styles.nsltter}>
                         <div className={styles.jon}>
                             <h3>Join Our Newsletter</h3>
