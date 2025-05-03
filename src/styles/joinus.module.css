@@ -1,0 +1,68 @@
+.course{
+    background-image: url(../../public/images/coursesBackground.png);
+}
+.jws{
+    display: flex;
+    justify-content: space-between;
+}
+.joinus p{
+    background-color:  #E9E2FF;
+    color:  #704FE6;
+
+}
+.firstcourses{
+    border: 1px dashed #704FE6 ;
+}
+.bckgd{
+    background-image: url(../../public/images/pimg.svg);
+    background-color: #E9E2FF;
+    background-size: 100% 100%;
+}
+.button .createButton {
+    color: #fff;
+    background-color: #704fe6;
+    border-radius: 200px;
+    justify-content: center;
+    align-items: center;
+    width: 223px;
+    height: 59px;
+    font-size: 15px;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+}
+
+.circle {
+    background-color: #785DD7;
+    border-radius: 60%;
+    height: 59px;
+    width: 59px;
+    margin-right: -20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.orange{
+    color:  #FC6441;
+
+}
+.dolar{
+    color:  #704FE6;
+
+}
+.lsbckgnd{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 5px;
+}
+.naming{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.faculty{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
