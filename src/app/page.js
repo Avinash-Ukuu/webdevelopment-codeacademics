@@ -6,32 +6,38 @@ import Footer from '../components/footer'
 import Browse from '@/components/browse'
 import Choosecode from '@/components/choosecode'
 import Learngrow from '@/components/learngrow'
+import Joinus from '@/components/joinus'
+import Categories from '@/components/categories'
+import Dev from '@/components/dev'
 
 const page = () => {
   return (
     <>
 
       {/* this is header */}
-      {/* <Header /> */}
+      <Header />
       {/* this is banner */}
-      {/* <Banner /> */}
+      <Banner />
+      <Categories />
       {/* this is header */}
-{/* {/* */}
+      {/* {/* */}
 
-{/* {THIS IS LEARN & GROW SECTION} */}
+      <Joinus />
+      {/* {THIS IS LEARN & GROW SECTION} */}
       <Learngrow />
+      <Dev />
 
       {/* This is choose code section */}
-      {/* <Choosecode />  */}
+      <Choosecode />
 
-    
+
       {/* This is meet out expert */}
-      {/* <Browse /> */}
-        {/* This is Newsletter */}
-        {/* <Newsletter /> */}
+      <Browse />
+      {/* This is Newsletter */}
+      <Newsletter />
       {/* This is Newsletter */}
       {/* This is Footer */}
-      {/* < Footer /> */}
+      < Footer />
       {/* This is Footer */}
     </>
 
