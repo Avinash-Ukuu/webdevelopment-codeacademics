@@ -3,6 +3,7 @@ import styles from '../styles/browse.module.css'
 import { IoIosArrowRoundForward } from "react-icons/io";
 import { VscArrowRight } from "react-icons/vsc";
 import { FaCircle } from 'react-icons/fa6';
+import { icon } from '@fortawesome/fontawesome-svg-core';
 
 
 const browse = () => {
@@ -52,6 +53,7 @@ const browse = () => {
               <div className={`${styles.boxes} ${styles.boxOne}`}>
 
                 <div className={`${styles.whitebox} ${styles.whiteboxone}`}>
+                  <div className={styles.icon}></div>
                   
                  <p className={styles.esther}> Esther Howard</p> 
                  <p className={styles.junior}>Junior instructor</p>
