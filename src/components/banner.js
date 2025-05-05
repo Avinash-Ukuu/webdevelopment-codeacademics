@@ -20,13 +20,26 @@ const banner = () => {
                 <div className={Styles.joinRound}>
                   <span className={Styles.arrow}><PiArrowRightThin size={18} color='white' />         </span>
                 </div>
+                
               </div>
             </div>
+        
           
           </div>
+          <div className={Styles.placement100}>
+                  <p>100% Placement Assistance</p>
+                  <span className={Styles.image5}>
+                     <Image
+                                    src="/image5.png"
+                                    width={170}
+                                    height={50}
+                                    alt="Picture of 5 person in the 100% placement box"
+                                  />
+                    
+                  </span>
+                </div>
         </div>
-        <div className={Styles.rightContent}>
-                     </div>
+       
       </section>
     </>
   )

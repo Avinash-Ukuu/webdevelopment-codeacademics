@@ -1,0 +1,143 @@
+.mainLearnGrow{
+    display: flex;
+    position: relative;
+}
+.mainLearnGrow::before{
+    position: absolute;
+    content: '';
+    background-image: url(../../public/learnGrowSTAR.png);
+    background-size: 100% 100%;
+    width: 50px;
+    height: 50px;
+    right: 155px;
+    top: 59px;
+}
+.mainLearnGrow .learnLeft {
+    width: 40%;
+    padding: 65px 0;
+  
+}
+.mainLearnGrow .learnLeft .learnUp{
+    display: flex;
+    justify-content: space-between;
+    width: 82%;
+}
+.mainLearnGrow .learnLeft .learnUp .learnTower{
+    margin-top: 28px;
+    position: relative;
+ 
+}
+.mainLearnGrow .learnLeft .learnUp .learnGirl{
+    padding-left: 30px;
+}
+.mainLearnGrow .learnLeft .learnUp .learnTower::before{
+    position: absolute;
+    content: '';
+    background-image: url(../../public/learnDotted.png);
+    background-size: 100% 100%;
+    right: -75px;
+    bottom: 9px; 
+    width: 200px;
+    height: 200px;
+    z-index: -1;
+}
+.mainLearnGrow .learnLeft .learnDown {
+    margin:20px 0 0 80px;
+}
+.mainLearnGrow .learnRight{
+    width: 54%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding:0 0 0 40px;
+}
+.mainLearnGrow .learnRight .loadButton .createButton {
+    color: #fff;
+    background-color: #704fe6;
+    border-radius: 200px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 45px;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+}   
+.mainLearnGrow .learnRight .loadButton .createButton  .circle {
+    background-color: #785DD7;
+    border-radius: 60%;
+    height: 42px;
+    width: 42px;
+    margin-right: -10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mainLearnGrow .learnRight .loadButton {
+    width: 20%;
+}
+
+.mainLearnGrow .learnRight  .text .ourAboutUs {
+    background-color: #E9E2FF;
+    width: 23%;
+    color: #704fe6;
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3px 5px;
+}
+.mainLearnGrow .learnRight  .text {
+
+
+
+}
+.mainLearnGrow .learnRight .text  h2{
+    font-size: 30px;
+    width: 90%;
+    margin: 15px 0;
+}
+.mainLearnGrow .learnRight  .text .practicalList{
+    display: flex;
+    font-size: 10px;
+    font-weight: bold;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.mainLearnGrow .learnRight  .text .joinText p{
+    font-size: 13px;
+    width: 93%;
+    margin-bottom: 25px;
+}
+.mainLearnGrow .learnRight  .text .practicalList .DOWN{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    width: 88%;
+
+}
+.mainLearnGrow .learnRight  .text .practicalList .UP{
+    display: flex;
+    justify-content: space-between;
+    width: 68%;
+}
+.mainLearnGrow .learnLeft .learnDown .yellowCircle{
+    background-color: #ffd25d;
+     border-radius: 60%;
+    width: 14%;
+    height: 26%;
+    padding: 15px;
+    text-align: center;
+    font-size: 17px;
+    position: absolute;
+    top: 222px;
+    left: 170px;
+    border: 3px solid white;
+
+}
+.mainLearnGrow .learnLeft .learnDown .yellowCircle .eight{
+    font-weight: bold;
+    font-size: 30px;
+   
+}
