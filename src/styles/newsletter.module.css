@@ -1,8 +1,7 @@
-
 .jsec {
     width: 100%;
     height: 180px;
-  position: relative;
+    position: relative;
     background-color: #704FE6;
     color: #ffffff;
 }
@@ -14,7 +13,7 @@
     padding-top: 20px;
 }
 
- .jon {
+.jon {
     width: 44%;
     align-items: center;
 }
@@ -35,52 +34,57 @@
     border-radius: 5px;
     display: flex;
     justify-content: space-between;
+
 }
-.jsec .nsltter .eye input{
+
+.jsec .nsltter .eye input {
     color: #000;
     padding: 20px;
     font-size: 16px;
-    
+
 }
-.jsec .nsltter .eye .but a{
+
+.jsec .nsltter .eye .but a {
     color: #ffffff;
     background-color: #000;
     border-radius: 3px;
-    padding: 7px ;
+    padding: 7px;
     font-size: 17px;
     position: absolute;
-    right: 425px;
-    top: 50px;
+    right: 540px;
+    top: 55px;
 }
-.jsec .nsltter::before{
+
+.jsec .nsltter::before {
     content: '';
-    width: 300px;
+    width: 260px;
     height: 150px;
     background-image: url(../../public/images/limg.svg);
     background-size: 100% 100%;
     position: absolute;
     color: #E9E2FF;
-    right: -20px;
+    right: 0;
     top: 30px;
-    
+
 }
 
-.jsec .nsltter::after{
+.jsec .nsltter::after {
     content: '';
-    width: 40px;
-    height: 60px;
+    width: 50px;
+    height: 70px;
     background-image: url(../../public/images/dotimg.svg);
     background-size: 100% 100%;
     position: absolute;
     color: #E9E2FF;
     right: 140px;
     top: 0;
-    
+
 }
-.jsec::after{
+
+.jsec::after {
     content: '';
-    width: 190px;
-    height: 140px;
+    width: 200px;
+    height: 150px;
     background-image: url(../../public/images/rimg.png);
     background-size: 100% 100%;
     position: absolute;
@@ -88,26 +92,123 @@
     right: 0;
     left: 0;
     top: 0;
-    
-    
+
+
 }
 
-.jsec::before{
+.jsec::before {
     content: '';
-    width: 40px;
-    height: 60px;
+    width: 50px;
+    height: 70px;
     background-image: url(../../public/images/simg.svg);
     background-size: 100% 100%;
     position: absolute;
     color: #E9E2FF;
     right: 140px;
-    top: 120px;
+    top: 110px;
     left: 100px;
-    
+
 }
 
+@media only screen and (max-width:1200px) {
+    .container {
+        width: 100%;
+    }
+
+    .jsec .nsltter .eye {
+        width: 28%;
+
+    }
+
+    .jon {
+        width: 40%;
+    }
+
+    .jsec .nsltter .jon h3 {
+        font-size: 35px;
+        margin-bottom: 8px;
+    }
+
+    .jsec .nsltter .jon p {
+        font-size: 16px;
+        line-height: 32px;
+    }
+
+    .jsec .nsltter .eye .but a {
+        right: 210px;
+        top: 50px;
+        font-size: 12px;
+    }
+
+    .jsec .nsltter .eye input {
+        padding: 10px;
+    }
+
+}
+
+@media only screen and (max-width:800px) {
+    .jsec .nsltter .eye {
+        width: 25%;
+
+    }
+
+    .jon {
+        
+        width: 25%;
+    }
+    .jsec .nsltter .eye .but a{
+        font-size: 10px;
+        right: 150px;
+        top: 70px;
+    }
+
+    
+    .jsec .nsltter{
+        padding-top:10px ;
+       
+    }
+    .jsec .nsltter .jon h3 {
+        font-size: 26px;
+        margin-bottom: 8px;
+    }
+
+    .jsec .nsltter .jon p {
+        font-size: 13px;
+        line-height: 32px;
+    }
+
+    .jsec .nsltter .eye input {
+        color: #000;
+        padding: 10px;
+        font-size: 10px;
+    }
+
+    .jsec .nsltter::before {
+        width: 190px;
+        height: 190px;
+       
+    }
+    .jsec .nsltter::after{
+        width: 40px;
+        height: 60px;
+        
+    }
+    .jsec::after{
+        width: 170px;
+        height: 130px;
+    }
+    .jsec::before{
+        width: 40px;
+        height: 60px;
+    }
 
 
+}
+@media only screen and (max-width:500px){
+    
+
+
+}
 
 
 
