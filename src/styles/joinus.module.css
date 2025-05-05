@@ -1,68 +1,369 @@
-.course{
+.course {
     background-image: url(../../public/images/coursesBackground.png);
+    background-size: 100% 100%;
+    padding: 100px 20px;
 }
-.jws{
+
+.jws {
+
     display: flex;
     justify-content: space-between;
+    margin-bottom: 20px;
 }
-.joinus p{
-    background-color:  #E9E2FF;
-    color:  #704FE6;
+
+.course .joinus .tpc {
+    background-color: #E9E2FF;
+    color: #704FE6;
+    border-radius: 5px;
+    font-size: 12px;
+    width: 15%;
+    /* height: 32px; */
+    padding: 5px;
+    text-align: center;
+    margin-bottom: 30px;
 
 }
-.firstcourses{
-    border: 1px dashed #704FE6 ;
+
+.jws h1 {
+    font-weight: 700px;
+    font-size: 45px;
+    line-height: 58px;
+    color: #0E2A46;
+    width: 50%;
+
 }
-.bckgd{
+
+.ourcourses {
+    border: 1px dashed #704FE6;
+    width: 40%;
+    border-radius: 5px;
+    padding: 20px;
+    margin-right: 15px;
+}
+
+.bckgd {
     background-image: url(../../public/images/pimg.svg);
-    background-color: #E9E2FF;
     background-size: 100% 100%;
 }
+
+.bckgd h3 {
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 33px;
+    color: #0E2A46;
+
+}
+
+.button .createButton p {
+    background-color: none;
+}
+
+
 .button .createButton {
     color: #fff;
     background-color: #704fe6;
     border-radius: 200px;
     justify-content: center;
     align-items: center;
-    width: 223px;
-    height: 59px;
+    width: 241px;
+    height: 58px;
     font-size: 15px;
     display: flex;
     justify-content: space-around;
     position: relative;
 }
 
+.createButton {
+    display: flex;
+    color: #fff;
+    background-color: #704fe6;
+    border-radius: 200px;
+    justify-content: center;
+    align-items: center;
+    width: 128px;
+    height: 40px;
+    font-size: 15px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
 .circle {
     background-color: #785DD7;
     border-radius: 60%;
-    height: 59px;
-    width: 59px;
+    height: 58px;
+    width: 58px;
     margin-right: -20px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.orange{
-    color:  #FC6441;
+
+.BusinessAnalysis {
+    position: relative;
+}
+
+.dm {
+    background-color: #17254E;
+    color: #fff;
+    width: 165px;
+    height: 40px;
+    padding: 10px;
+    font-size: 12px;
+    text-align: center;
+    border-radius: 5px;
+    position: absolute;
+    top: 180px;
+    margin: 15px;
 
 }
-.dolar{
-    color:  #704FE6;
+
+.orange {
+    color: #FC6441;
 
 }
-.lsbckgnd{
+
+.dolar {
+    color: #704FE6;
     display: flex;
-    justify-content: space-between;
+    font-size: 14px;
+
+}
+
+.star p {
+    color: #4D5756;
+    font-size: 14px;
+    font-weight: 500;
+
+
+}
+
+.lsbckgnd {
+    display: flex;
+    justify-content: space-evenly;
     align-items: center;
     padding: 10px 5px;
+    background-color: #fff;
+
+    margin: 20px 0;
+    width: 382px;
+    height: 50px;
+    border-radius: 5px;
 }
-.naming{
+
+.naming {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+
+
+}
+
+.star {
+    display: flex;
+}
+
+.rating {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.faculty {
     display: flex;
     justify-content: space-between;
     align-items: center;
+
 }
-.faculty{
+
+.lesson {
+    display: flex;
+    font-size: 14px;
+    padding: 10px;
+}
+
+.fimg {
+    margin-right: 14px;
+}
+
+.lesson span {
+    font-size: 14px;
+    line-height: 14px;
+}
+
+.lesson p {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+
+.toplinecourse {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    margin-top: 40px;
+}
+
+.bottomlinecourse {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+@media only screen and (max-width:1200px) {
+    .container {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+
+    .course .joinus .tpc {
+        width: 18%;
+    }
+
+    .ourcourses {
+        width: 40%;
+    }
+
+    .dm {
+        position: absolute;
+        top: 139px;
+        margin: 15px;
+        width: 150px;
+        height: 30px;
+        padding: 5px;
+
+    }
+
+    .lsbckgnd {
+        width: 300px;
+        height: 40px;
+    }
+
+    .lesson {
+        display: flex;
+        font-size: 10px;
+        padding: 10px;
+    }
+
+    .createButton {
+
+        width: 100px;
+        height: 30px;
+
+    }
+
+    .button .createButton {
+        width: 240px;
+        height: 50px;
+    }
+
+    .circle {
+        width: 50px;
+        height: 50px;
+    }
+
+
+}
+
+@media only screen and (max-width:800px) {
+    .lsbckgnd {
+       display: none;
+    }
+
+    .createButton {
+
+        width: 50px;
+        height: 20px;
+        font-size: 12px;
+
+    }
+    .bottomarrow{
+        display: none;
+    }
+    .button .createButton {
+        width: 200px;
+        height: 40px;
+        
+    }
+    .button{
+        padding-right: 20px;
+    }
+
+    .dm {
+        position: absolute;
+        top: 75px;
+        margin: 15px;
+        width: 125px;
+        height: 30px;
+        text-align: center;
+
+    }
+
+    .circle {
+        width: 40px;
+        height: 40px;
+    }
+
+    .jws h1 {
+        font-weight: 600px;
+        font-size: 35px;
+        line-height: 48px;
+        width: 65%;
+
+    }
+
+    .course .joinus .tpc {
+        width: 25%;
+
+    }
+
+}
+@media only screen and (max-width:500px){
+    .course{
+        width: 100%;
+    }
+    .jws {
+
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+    .course .joinus .tpc {
+        width: 18%;
+    }
+    .button .createButton {
+      margin-top: 10px;
+       
+        
+    }
+    .toplinecourse{
+        display: flex;
+        flex-direction: column;
+    }
+    .bottomlinecourse{
+        display: flex;
+        flex-direction: column;
+    }
+    .ourcourses {
+        width: 40%;
+    }
+    .lesson {
+        display: flex;
+        font-size: 14px;
+        padding: 10px;
+    }
+    .lsbckgnd {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        padding: 10px 5px;
+        background-color: #fff;
+        margin: 20px 0;
+        width: 90%;
+        height: 50px;
+        border-radius: 5px;
+    }
+
+
 }

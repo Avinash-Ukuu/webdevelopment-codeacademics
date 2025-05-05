@@ -1,0 +1,28 @@
+.txt h6{
+    color:  #FFD25D;
+    font-weight: 600;
+    font-size: 23px;
+}
+.tody{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: #fff;
+    font-size: 60px;
+   
+   
+
+}
+.txt{
+    
+    padding: 40px 20px;
+}
+.devv{
+    background-image: url(.././../public/images/devbkg.png);
+    background-size: 100% 100%;
+   
+    
+    
+}
+
+
