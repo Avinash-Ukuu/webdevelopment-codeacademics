@@ -5,28 +5,33 @@ import Banner from '../components/banner'
 import Footer from '../components/footer'
 import Browse from '@/components/browse'
 import Choosecode from '@/components/choosecode'
+import Learngrow from '@/components/learngrow'
 
 const page = () => {
   return (
     <>
 
       {/* this is header */}
-      <Header />
+      {/* <Header /> */}
       {/* this is banner */}
-      <Banner />
+      {/* <Banner /> */}
       {/* this is header */}
+{/* {/* */}
+
+{/* {THIS IS LEARN & GROW SECTION} */}
+      <Learngrow />
 
       {/* This is choose code section */}
-      <Choosecode />
+      {/* <Choosecode />  */}
 
     
       {/* This is meet out expert */}
-      <Browse />
+      {/* <Browse /> */}
         {/* This is Newsletter */}
-        <Newsletter />
+        {/* <Newsletter /> */}
       {/* This is Newsletter */}
       {/* This is Footer */}
-      < Footer />
+      {/* < Footer /> */}
       {/* This is Footer */}
     </>
 

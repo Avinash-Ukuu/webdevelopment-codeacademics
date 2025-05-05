@@ -1,7 +1,7 @@
 .mainBanner{
     background-image:url(../../public/bannerBackground.png) ;
     background-size: 100% 100%;
-    padding: 100px 0;
+    padding: 160px 0;
     position: relative;
 }
 .mainBanner::before{
@@ -9,11 +9,12 @@
     background-image: url(../../public/rightMainImage.png);
     background-size: 100% 100%;
     width: 40%;
-    height: 100%;
+    height: 97%;
     position: absolute;
     top: 0;
     right: 0;
     background-repeat: no-repeat;
+ 
 }
 .launchBanner{
     display: flex;
@@ -35,10 +36,11 @@
     background-image: url('../../public/dottedArrow.svg');
     background-size: 100% 100%;
     background-repeat: no-repeat;
-    right: 106px;
+    right: 154px;
     top: 3px;
-    width: 427px;
+    width: 57%;
     height: 119px;
+  
 }
 .launchBanner .leftContent .mainJoin .joinRound{
     background-color: #1F3061;
@@ -65,3 +67,17 @@ color: #17254E;
 font-size: 60px;
 line-height: 72px;
 }
+.mainBanner .placement100{
+    background-color: #ffff;
+   border-radius: 5%;
+   padding-left: 13px;
+   height: 155px;
+   width: 25%;
+   position: absolute;
+    right: 340px;
+  bottom: 70px;
+    
+    color: #704FE6;
+    font-size: 30px;   
+}
+
