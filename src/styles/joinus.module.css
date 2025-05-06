@@ -24,8 +24,8 @@
 
 }
 
-.jws h1 {
-    font-weight: 700px;
+.jws h2 {
+    font-weight: bold;
     font-size: 45px;
     line-height: 58px;
     color: #0E2A46;
@@ -35,7 +35,7 @@
 
 .ourcourses {
     border: 1px dashed #704FE6;
-    width: 40%;
+    width: 32%;
     border-radius: 5px;
     padding: 20px;
     margin-right: 15px;
@@ -106,14 +106,13 @@
 .dm {
     background-color: #17254E;
     color: #fff;
-    width: 165px;
-    height: 40px;
+    width: 38%;
     padding: 10px;
     font-size: 12px;
     text-align: center;
     border-radius: 5px;
     position: absolute;
-    top: 180px;
+    top: 153px;
     margin: 15px;
 
 }
@@ -146,7 +145,7 @@
     background-color: #fff;
 
     margin: 20px 0;
-    width: 382px;
+    width: 100%;
     height: 50px;
     border-radius: 5px;
 }
@@ -200,14 +199,21 @@
 
 .toplinecourse {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     margin-top: 40px;
 }
 
 .bottomlinecourse {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     margin-top: 20px;
+}
+
+.maincourse {
+    display: flex;
+    flex-wrap: wrap;
 }
 
 @media only screen and (max-width:1200px) {
@@ -222,7 +228,7 @@
     }
 
     .ourcourses {
-        width: 40%;
+        width: 31%;
     }
 
     .dm {
@@ -236,7 +242,7 @@
     }
 
     .lsbckgnd {
-        width: 300px;
+        width: 100%;
         height: 40px;
     }
 
@@ -263,12 +269,20 @@
         height: 50px;
     }
 
+    .toplinecourse {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-top: 40px;
+    }
+
+
 
 }
 
 @media only screen and (max-width:800px) {
     .lsbckgnd {
-       display: none;
+        display: none;
     }
 
     .createButton {
@@ -278,15 +292,18 @@
         font-size: 12px;
 
     }
-    .bottomarrow{
+
+    .bottomarrow {
         display: none;
     }
+
     .button .createButton {
         width: 200px;
         height: 40px;
-        
+
     }
-    .button{
+
+    .button {
         padding-right: 20px;
     }
 
@@ -305,11 +322,11 @@
         height: 40px;
     }
 
-    .jws h1 {
+    .jws h2 {
         font-weight: 600px;
-        font-size: 35px;
+        font-size: 30px;
         line-height: 48px;
-        width: 65%;
+        width: 50%;
 
     }
 
@@ -319,51 +336,37 @@
     }
 
 }
-@media only screen and (max-width:500px){
-    .course{
-        width: 100%;
-    }
-    .jws {
 
-        display: flex;
-        flex-direction: column;
-        margin-bottom: 20px;
-    }
+@media only screen and (max-width:500px) {
+    
     .course .joinus .tpc {
-        width: 18%;
+        width: 17%;
+
     }
-    .button .createButton {
-      margin-top: 10px;
-       
+    .jws h2 {
         
+        font-size: 45px;
+        line-height: 48px;
+        width: 60%;
+
     }
-    .toplinecourse{
-        display: flex;
-        flex-direction: column;
+    .circle {
+        display: none;
     }
-    .bottomlinecourse{
-        display: flex;
-        flex-direction: column;
-    }
-    .ourcourses {
-        width: 40%;
-    }
-    .lesson {
-        display: flex;
-        font-size: 14px;
-        padding: 10px;
-    }
-    .lsbckgnd {
-        display: flex;
-        justify-content: space-evenly;
-        align-items: center;
-        padding: 10px 5px;
-        background-color: #fff;
-        margin: 20px 0;
-        width: 90%;
+    .button .createButton{
+        width: 180px;
         height: 50px;
-        border-radius: 5px;
+        margin-right: 50px;
     }
-
-
+    .course {
+        background-image: url(../../public/images/coursesBackground.png);
+        padding: 100px 20px;
+    }
+    .ourcourses{
+        width: 30%;
+    }
+    
+    .toplinecourse{
+        flex-wrap: wrap;
+    }
 }

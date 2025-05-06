@@ -2,27 +2,75 @@
     color:  #FFD25D;
     font-weight: 600;
     font-size: 23px;
+    line-height: 32px;
 }
 .tody{
+    width: 100%;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     color: #fff;
-    font-size: 60px;
-   
-   
+    font-size: 45px;
+}
 
-}
-.txt{
-    
-    padding: 40px 20px;
-}
 .devv{
     background-image: url(.././../public/images/devbkg.png);
-    background-size: 100% 100%;
-   
-    
+    background-size: 100% 100%;  
+    padding: 30px 20px; 
+}
+.tody h5{
+    white-space: nowrap;
+    font-weight: bold;
+}
+.tody h2{
+    font-size: 50px;
+    font-weight: bold;
+}
+@media only screen and (max-width:1200px) {
+    .container {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    .tody h2{
+        font-size: 40px;
+    }
+ 
+
+}
+@media only screen and (max-width:800px) {
+    .container {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    .tody h2{
+        font-size: 25px;
+    }
+    .tody h5{
+        font-weight: 100;
+       
+       
+    }
+    .txt h6{
+        font-size: 15px;
+    }
+}
+@media only screen and (max-width:500px){
+    .txt h6{
+        font-size: 13px;
+
+    }
+    .tody h5{
+        display: none;
+       
+       
+    }
+    .tody h2{
+        font-size: 15px;
+    }
     
 }
+
 
 

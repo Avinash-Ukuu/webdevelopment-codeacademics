@@ -15,29 +15,29 @@ const page = () => {
     <>
 
       {/* this is header */}
-      <Header />
+      {/* <Header /> */}
       {/* this is banner */}
-      <Banner />
-      <Categories />
+      {/* <Banner /> */}
+      {/* <Categories /> */}
       {/* this is header */}
       {/* {/* */}
 
-      <Joinus />
+      {/* <Joinus /> */}
       {/* {THIS IS LEARN & GROW SECTION} */}
-      <Learngrow />
+      {/* <Learngrow /> */}
       <Dev />
 
       {/* This is choose code section */}
-      <Choosecode />
+      {/* <Choosecode /> */}
 
 
       {/* This is meet out expert */}
-      <Browse />
+      {/* <Browse /> */}
       {/* This is Newsletter */}
       <Newsletter />
       {/* This is Newsletter */}
       {/* This is Footer */}
-      < Footer />
+      {/* < Footer /> */}
       {/* This is Footer */}
     </>
 
