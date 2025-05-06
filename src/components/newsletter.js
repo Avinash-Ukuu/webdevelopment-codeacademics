@@ -1,6 +1,7 @@
 import React from 'react'
 import styles from '../styles/newsletter.module.css'
 import Image from 'next/image'
+import { RxHamburgerMenu } from "react-icons/rx";
 const newsletter = () => {
     return (
         <>
@@ -13,7 +14,9 @@ const newsletter = () => {
                             <p>Subscribe our newsletter to get our latest update & news.</p>
 
                         </div>
-
+                    <div className={styles.hambgr}>
+                <span><RxHamburgerMenu /></span>
+                    </div>
                         <div className={styles.eye}>
                             <input type='text' placeholder='Enter your email:' ></input>
                             <button className={styles.but}><a href='#'>Subscribe Now</a></button>

@@ -41,6 +41,7 @@
     color: #000;
     padding: 20px;
     font-size: 16px;
+    position: relative;
 
 }
 
@@ -51,7 +52,7 @@
     padding: 7px;
     font-size: 17px;
     position: absolute;
-    right: 540px;
+    right: 424px;
     top: 55px;
 }
 
@@ -157,18 +158,21 @@
         width: 25%;
     }
     .jsec .nsltter .eye .but a{
-        font-size: 10px;
+        font-size: 8px;
         right: 150px;
         top: 70px;
+       
+        
     }
 
     
-    .jsec .nsltter{
+    .jsec{
         padding-top:10px ;
        
     }
+    
     .jsec .nsltter .jon h3 {
-        font-size: 26px;
+        font-size: 21px;
         margin-bottom: 8px;
     }
 
@@ -179,18 +183,18 @@
 
     .jsec .nsltter .eye input {
         color: #000;
-        padding: 10px;
+        padding: 12px;
         font-size: 10px;
     }
 
     .jsec .nsltter::before {
-        width: 190px;
-        height: 190px;
+        width: 170px;
+        height: 205px;
        
     }
     .jsec .nsltter::after{
         width: 40px;
-        height: 60px;
+        height: 50px;
         
     }
     .jsec::after{
@@ -205,6 +209,19 @@
 
 }
 @media only screen and (max-width:500px){
+    .jsec .nsltter .eye{
+        display: none;
+    }
+    .jon{
+       width: 80%;
+    }
+    .jsec .nsltter .jon p{
+        font-size: 14px;
+    }
+    .jsec .nsltter .jon h3{
+        font-size: 28px;
+    }
+    
     
 
 
