@@ -12,37 +12,24 @@ import Dev from '@/components/dev'
 import Discoveryourgain from '@/components/discoveryourgain'
 
 const page = () => {
-  return (
-    <>
+      return (
+            <>
 
-      {/* this is header */}
-      {/* <Header /> */}
-      {/* this is banner */}
-      {/* <Banner /> */}
-      {/* <Categories /> */}
-      {/* this is header */}
-      {/* {/* */}
+                  <Header />
+                  <Banner />
+                  <Categories />
+                  <Joinus />
+                  <Learngrow />
+                  <Dev />
+                  <Choosecode />
+                  <Browse />
+                  <Discoveryourgain />
+                  <Newsletter />
+                  < Footer />
 
-      {/* <Joinus /> */}
-      {/* {THIS IS LEARN & GROW SECTION} */}
-      {/* <Learngrow /> */}
-      <Dev />
+            </>
 
-      {/* This is choose code section */}
-      {/* <Choosecode /> */}
-
-
-      {/* This is meet out expert */}
-      {/* <Browse /> */}
-      {/* This is Newsletter */}
-      <Newsletter />
-      {/* This is Newsletter */}
-      {/* This is Footer */}
-      {/* < Footer /> */}
-      {/* This is Footer */}
-    </>
-
-  )
+      )
 }
 
 export default page
