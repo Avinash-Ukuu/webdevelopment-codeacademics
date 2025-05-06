@@ -75,7 +75,10 @@
     align-items: center;
 }
 .mainLearnGrow .learnRight .loadButton {
-    width: 20%;
+    width: 13%;
+    position: absolute;
+  
+    bottom: 65px;
 }
 
 .mainLearnGrow .learnRight  .text .ourAboutUs {

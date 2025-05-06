@@ -9,36 +9,33 @@ import Learngrow from '@/components/learngrow'
 import Joinus from '@/components/joinus'
 import Categories from '@/components/categories'
 import Dev from '@/components/dev'
+import Discoveryourgain from '@/components/discoveryourgain'
 
 const page = () => {
   return (
     <>
 
-      {/* this is header */}
-      <Header />
-      {/* this is banner */}
+    
+      {/* <Header />
+     
       <Banner />
       <Categories />
-      {/* this is header */}
-      {/* {/* */}
-
+   
       <Joinus />
-      {/* {THIS IS LEARN & GROW SECTION} */}
+   
       <Learngrow />
       <Dev />
 
-      {/* This is choose code section */}
-      <Choosecode />
+      <Choosecode /> */}
 
-
-      {/* This is meet out expert */}
-      <Browse />
-      {/* This is Newsletter */}
+{/* 
+      <Browse /> */}
+      <Discoveryourgain />
+{/*      
       <Newsletter />
-      {/* This is Newsletter */}
-      {/* This is Footer */}
-      < Footer />
-      {/* This is Footer */}
+  
+      < Footer /> */}
+    
     </>
 
   )
