@@ -11,8 +11,8 @@ const Dev = () => {
             <div className={styles.txt} >
                 <h6>Join Our New Session</h6>
                 <div className={styles.tody}>
-                    <h1>Start Your Web Development Journey Today!</h1>
-                    <h3 >(+91)9592-258-369</h3>
+                    <h2>Start Your Web Development Journey Today!</h2>
+                    <h5>(+91)9592-258-369</h5>
 
                 </div>
 

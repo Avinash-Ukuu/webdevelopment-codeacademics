@@ -19,7 +19,7 @@ const Joinus = () => {
           <div className={styles.joinus}>
             <p className={styles.tpc}>TOP POPULAR COURSES</p>
             <div className={styles.jws}>
-              <h1>Edunity Courses Student Can Join With Us.</h1>
+              <h2>Edunity Courses Student Can Join With Us.</h2>
               <div className={styles.button}>
                 <button className={styles.createButton}>
                   <p >Load More Courses</p>
@@ -36,6 +36,7 @@ const Joinus = () => {
 
           </div>
           {/* This is about course section */}
+          <div className={styles.maincourse}>
           <div className={styles.toplinecourse}>
           <div className={styles.ourcourses}>
             <div className={styles.BusinessAnalysis}>
@@ -358,6 +359,7 @@ const Joinus = () => {
             </div>
           </div>
           
+          </div>
           </div>
 
 

@@ -11,7 +11,7 @@
 
 .edu {
     width: 28%;
-    margin: 0  100px;
+    margin: 0 100px;
 }
 
 
@@ -35,7 +35,7 @@
 }
 
 .symbols {
-    width: 65%;
+    width: 57%;
     height: 65px;
     display: flex;
     justify-content: space-between;
@@ -49,7 +49,7 @@
     color: rgb(112, 79, 230);
     background-color: rgb(233, 226, 255);
     border-radius: 100%;
-    width: 40px;
+    width: 23%;
     height: 40px;
     display: flex;
     justify-content: center;
@@ -78,10 +78,8 @@
     align-items: center;
     flex-wrap: wrap;
     align-content: center;
-    width: 60%;
+    width: 77%;
     row-gap: 8px;
-
-
 
 }
 
@@ -92,6 +90,7 @@
 .galleryicn {
     width: 33%;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
 }
@@ -102,7 +101,7 @@
 }
 
 .gal h4 {
-    padding: 20px;
+    padding-bottom: 15px;
 }
 
 .rticon {
@@ -142,8 +141,21 @@
     }
 
     .galleryicn {
-        width: 30%;
+        width: 32%;
     }
+
+    .gal {
+        margin-left: 10px;
+    }
+
+    .gal h4 {
+        padding-bottom: 20px;
+    }
+
+    .gallery {
+        width: 100%;
+    }
+
 
     .edu p {
         width: 100%;
@@ -159,6 +171,50 @@
     }
 
     .symbols {
+        width: 100%;
+    }
+    .footer {
+        font-size: 15px;
+    }
+
+    .footer span {
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width:800px) {
+
+    .galleryicn {
+        width: 40%;
+    }
+
+    .gal {
+        margin-left: 30px;
+    }
+
+    .gal h4 {
+        padding-bottom: 20px;
+    }
+
+    .gallery {
+        width: 100%;
+    }
+
+    .edu {
         width: 80%;
     }
+
+    .footer {
+        font-size: 12px;
+    }
+
+    .footer span {
+        font-size: 12px;
+    }
+
+    .serviceslist p,
+    .linklist p {
+        font-size: 13px;
+    }
+
 }
