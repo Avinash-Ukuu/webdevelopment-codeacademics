@@ -1,0 +1,94 @@
+.discover{
+    padding: 50px;
+}
+.discover .mainBox {
+    padding: 50px 0;
+    display: flex;
+    justify-content: space-between;
+
+}
+.discover .carrierGain p {
+    background-color: #E9E2FF;
+    color: #704FE6;
+    font-size: 10px;
+    padding: 2px 17px;
+}
+.discover  .carrierGain{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+}
+.discover .carrierGain h2{
+    font-weight: bolder;
+    font-size: 30px;
+    margin-top: 10px;
+}
+.discover .mainBox .purpleBOx{
+    background-color: #785DD7;
+    width: 49%;
+    color: #fff;
+    position: relative;
+    
+    padding: 80px 20px;
+  
+}
+.discover .mainBox .purpleBOx::before{
+    position: absolute;
+    content: '';
+    background-image: url(../../public/discoverGirl.png);
+    background-size: 100% 100%;
+    width: 50%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    background-repeat: no-repeat;
+
+}
+.discover .mainBox .purpleBOx .Content{
+ 
+    width: 50%;
+
+}
+.discover .mainBox .purpleBOx .Content .start{
+
+}
+.discover .mainBox .purpleBOx .Content .joinourTrainning p{
+    font-size: 18px;
+    font-weight: bold;
+    width: 96%;
+    margin: 10px 0;
+ }
+.discover .mainBox .purpleBOx .mainButton{
+    width: 33%;
+    position: absolute;
+    bottom: 0;
+    left: 30px;
+    padding-bottom: 20px;
+}
+.discover .mainBox .purpleBOx .button{
+    color: #070707;
+    background-color: #FFD25D;
+    border-radius: 200px;
+    justify-content: center;
+    align-items: center;
+    width: 74%;
+    height: 55px;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+ 
+}
+.discover .mainBox .purpleBOx .circle{
+    background-color: #FEB65C;
+    border-radius: 60%;
+    height: 42px;
+    width: 42px;
+    margin-right: -10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+

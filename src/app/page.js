@@ -9,6 +9,7 @@ import Learngrow from '@/components/learngrow'
 import Joinus from '@/components/joinus'
 import Categories from '@/components/categories'
 import Dev from '@/components/dev'
+import Discoveryourgain from '@/components/discoveryourgain'
 
 const page = () => {
   return (
